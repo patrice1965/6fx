@@ -284,7 +284,7 @@ margin-right:40%;
 
 
 
-@media (max-width:736px){
+@media (max-width:650px){
     .item2 p {
 
 
@@ -331,9 +331,14 @@ font-size:14px;
 
 
 
+   
 
 
-@media (max-width:414px){
+
+
+@media only screen 
+    and (min-device-width: 414px) 
+    and (max-device-height: 736px) {
     .item2 p {
 
 
@@ -341,16 +346,46 @@ font-size:14px;
 
   color:black;
 }
+           .project-card{
+  height: 300px;
+  width: 29%;
+  float: left;
+  border: 2px solid none;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 25px;
+  box-shadow: 3px 5px 25px black;
+}
+        .project-card p{
+font-size:14px;
+}
 }
 
+@media only screen 
+ and (device-width : 414px) 
+    and (device-height : 896px) 
+    and (-webkit-device-pixel-ratio : 2)) {
+    .item2 p {
 
 
+  font-size: 14px;
 
-
-
-
-
-
+  color:black;
+}
+           .project-card{
+  height: 300px;
+  width: 29%;
+  float: left;
+  border: 2px solid none;
+  border-radius: 25px;
+  text-align: center;
+  margin-left: 25px;
+  box-shadow: 3px 5px 25px black;
+}
+        .project-card p{
+font-size:14px;
+}
+}
 
 
 
